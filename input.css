@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.circle {
+#circle1 {
 	position: absolute;
 	width: 679px;
 	height: 679px;
@@ -12,4 +12,20 @@
 	background: rgba(142, 173, 213, 0.24);
 	/* filter: blur(306px); */
 	filter: blur(180px);
+}
+
+#circle2 {
+	position: absolute;
+	width: 679px;
+	height: 679px;
+	left: calc(50% - 679px / 2 + 818.5px);
+	top: 1231px;
+
+	background: rgba(142, 173, 213, 0.3);
+	filter: blur(180px);
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }

@@ -10,11 +10,14 @@
   <title>Digital Agency</title>
 </head>
 
-<body class="bg-[#FDFCFC]">
-  <div class="circle"></div>
+<body class="bg-[#FDFCFC] mb-20">
 
-  <div id="nav-bar" class="flex flex-row relative my-8 mx-20">
-    <div id="logo-name" class="flex-none font-bold py-2">DIGITAL AGENCY</div>
+  <div id="circle1"></div>
+  <div id="circle2"></div>
+
+  <!-- nav-bar -->
+  <div id="nav-bar" class="flex flex-row relative my-8 mx-40">
+    <div id="logo-name" class="flex-none font-bold py-2 cursor-pointer">DIGITAL AGENCY</div>
 
     <div id="nav-bar-links" class="absolute right-0 flex flex-row text-[#272D38]">
       <div
@@ -32,36 +35,135 @@
     </div>
   </div>
 
-  <div id="hero-section" class="relative mx-20">
+  <!-- hero-section -->
+  <div id="hero-section" class="flex flex-column my-20 mx-40">
 
-    <div class="w-fit h-[450px]">
+    <div class="w-fit max-w-xl my-auto mr-auto">
 
-      <h1 class="font-bold text-[64px] text-coolGray-800 w-[540px] my-2 leading-tight">
+      <!-- <h1 class="font-bold text-[64px] text-coolGray-800 w-[540px] my-2 leading-tight"> -->
+      <h1 class="font-bold text-[64px] text-coolGray-800 leading-tight">
         Building Digital Products, Brands & Experience
       </h1>
-      <p class="font-normal text-coolGray-800 max-w-md capitalize my-5"">
+
+      <p class="text-coolGray-800 max-w-md capitalize my-5"">
           Digital Agency is your online team mangement tool that easy and prompt
-        </p>
-        <div class=" bg-[#8EADD5] font-semibold w-fit text-white px-5 py-2 rounded-lg my-5"">
+      </p>
+
+      <div class=" bg-[#8EADD5] font-semibold w-fit text-white px-5 py-2 rounded-lg my-5 cursor-pointer
+        hover:bg-[#617794]">
         CONTACT US
+      </div>
+
     </div>
+
+    <img class=""
+      src="images/business-people-discussing-business-idea.svg" alt="people discuss business idea">
   </div>
 
-  <!-- <div class="w-[450px] h-[450px] absolute top-0 right-0 insent-y-0 bg-red-600"></div> -->
-  <img class="w-[450px] h-[450px] absolute right-8 top-0 insent-y-0"
-    src="images/business-people-discussing-business-idea.svg" alt="people discuss business idea">
-  </div>
-
-  <div id="companies-section" class="my-16 mx-auto w-fit">
+  <!-- companies-section -->
+  <div id="companies-section" class="my-20 mx-auto w-fit">
     <div class="font-light my-3 text-center text-[#667085]">Trusted by 4,000+ companies</div>
 
     <div id="logos-container" class="bg-[#F6F6F6] py-3">
       <div id="logos" class="flex flex-column">
-        <img class="mx-8 h-[48px]" src="images/spotify.svg" alt="spotify logo">
-        <img class="mx-8 h-[48px]" src="images/slack.svg" alt="slack logo">
-        <img class="mx-8 h-[48px]" src="images/dropbox.svg" alt="dropbox logo">
-        <img class="mx-8 h-[48px]" src="images/zoom.svg" alt="zoom logo">
+        <img class="mx-8 h-[48px] hover:shadow-xl px-3 py-1 hover:rounded-lg" src="images/spotify.svg"
+          alt="spotify logo">
+        <img class="mx-8 h-[48px] hover:shadow-xl px-3 py-1 hover:rounded-lg" src="images/slack.svg" alt="slack logo">
+        <img class="mx-8 h-[48px] hover:shadow-xl px-3 py-1 hover:rounded-lg" src="images/dropbox.svg"
+          alt="dropbox logo">
+        <img class="mx-8 h-[48px] hover:shadow-xl px-3 py-1 hover:rounded-lg" src="images/zoom.svg" alt="zoom logo">
       </div>
+    </div>
+  </div>
+
+  <!-- branding-section -->
+  <div id="branding-section" class="flex flex-column mx-40 my-20">
+    <img src="images/designer-team-working-on-creative-design.svg" alt="designer team">
+    <div class="max-w-md ml-auto my-auto">
+      <div class="inline-block align-middle">
+        <div class="font-bold text-5xl">Branding & Design System</div>
+        <div class="my-10">Commonly used in the graphic, print & publishing industris for previewing visual layout and
+          mockups
+        </div>
+        <img src="images/arrow.svg" alt="arrow" class=" p-3 hover:bg-sky-200 hover:shadow-xl hover:rounded-full">
+      </div>
+    </div>
+  </div>
+
+  <!-- custom-secion -->
+  <div id="custom-section" class="flex flex-column my-20 mx-40">
+      <div class="max-w-md my-auto mr-auto">
+        <div class="font-bold text-5xl">Custom & Plugin Development</div>
+        <div class="my-10">Commonly used in the graphic, print & publishing industris for previewing visual layout and
+          mockups
+        </div>
+        <img src="images/arrow.svg" alt="arrow" class=" p-3 hover:bg-sky-200 hover:shadow-xl hover:rounded-full">
+      </div>
+
+      <img src="images/businessman-analyzing-data.svg" class="right-0" alt="designer team">
+
+  </div>
+
+  <!-- testimonial-section -->
+  <div id="testimonial-section" class="mx-auto w-fit my-20">
+    <p class="text-center">TESTIMONIALS</p>
+    <div class="capitalize font-bold text-5xl text-center my-4">Read what others have to say</div>
+
+    <!-- peoples list -->
+    <div class="flex flex-column space-x-8 my-16">
+      <!-- person 1 -->
+      <div class="bg-[#F6F6F6] max-w-xs rounded-xl shadow-sm p-5">
+        <img class="h-[130px] border-2 rounded-full mx-auto bg-[#FDFCFC]"
+          src="images/review-people/western-man-4975942-4159828 1.svg" alt="western man">
+        <div class="text-lg font-medium text-center">Andrew Rathore</div>
+        <div class="text-center font-light text-sm py-5 px-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada
+          felis malesuada
+          vel.
+        </div>
+      </div>
+
+      <!-- person 2 -->
+      <div class="bg-[#F6F6F6] max-w-xs rounded-xl shadow-sm p-5">
+        <img class="h-[130px] border-2 rounded-full mx-auto bg-[#FDFCFC]"
+          src="images/review-people/asian-woman-4975939-4159825 1.svg" alt="asian woman">
+        <div class="text-lg font-medium text-center">Vera Duncan</div>
+        <div class="text-center font-light text-sm py-5 px-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada
+          felis malesuada
+          vel.
+        </div>
+      </div>
+
+      <!-- person 3 -->
+      <div class="bg-[#F6F6F6] max-w-xs rounded-xl shadow-sm p-5">
+        <img class="h-[130px] border-2 rounded-full mx-auto bg-[#FDFCFC]"
+          src="images/review-people/black-woman-4975941-4159827 1.svg" alt="black woman">
+        <div class="text-lg font-medium text-center">Alisha Smith</div>
+        <div class="text-center font-light text-sm py-5 px-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada
+          felis malesuada
+          vel.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- contact-section -->
+  <div id="contact-section" class="bg-[#F6F6F6] my-20 mx-40 rounded-xl flex flex-column">
+    <img src="images/customer-support.svg" alt="customer-support">
+    <div class="my-auto mx-auto max-w-md">
+      <div class="capitalize font-bold text-5xl">Be a part of the next big thing</div>
+      <div class="my-10 max-w-xs">
+        We work with Brands, Startups, to SMEs. Colaborate for more impact and growth
+      </div>
+
+      <div class=" bg-[#8EADD5] font-semibold w-fit text-white px-5 py-2 rounded-lg my-5 cursor-pointer
+                hover:bg-[#617794]">
+        CONTACT US
+      </div>
+
     </div>
   </div>
 
