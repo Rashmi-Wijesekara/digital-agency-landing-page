@@ -673,7 +673,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: calc(50% - 679px / 2 - 601.5px);
   top: -324px;
   background: rgba(142, 173, 213, 0.24);
-  filter: blur(306px);
+  /* filter: blur(306px); */
+  filter: blur(180px);
 }
 
 .hover\:bg-sky-200:hover {

@@ -10,5 +10,6 @@
 	top: -324px;
 
 	background: rgba(142, 173, 213, 0.24);
-	filter: blur(306px);
+	/* filter: blur(306px); */
+	filter: blur(180px);
 }
